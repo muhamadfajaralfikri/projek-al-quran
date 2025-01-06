@@ -87,12 +87,12 @@ class HomePage extends StatelessWidget {
   List<Widget> _buildGridItems(BuildContext context) {
     final List<Map<String, dynamic>> items = [
       {
-        'title': 'SEJARAH 25 NABI ALLAH',
+        'title': 'SEJARAH 25 NABI ALLAH SWT',
         'image': 'assets/images/islamic.png',
         'route': const ListNabi()
       },
       {
-        'title': 'DOA SOLAT',
+        'title': 'NIAT SOLAT',
         'image': 'assets/images/praying.png',
         'route': const ListShalat()
       },

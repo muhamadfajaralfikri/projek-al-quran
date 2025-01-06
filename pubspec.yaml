@@ -54,11 +54,11 @@ flutter:
     - assets/images/pray2.png
     - assets/images/pray3.png
     - assets/images/pray4.png
-    - assets/subuh.json
-    - assets/dzuhur.json
-    - assets/ashar.json
-    - assets/maghrib.json
-    - assets/isya.json
+    - assets/shalat/subuh.json
+    - assets/shalat/dzuhur.json
+    - assets/shalat/ashar.json
+    - assets/shalat/maghrib.json
+    - assets/shalat/isya.json
     - assets/nabi.json
     - assets/doa.json
 

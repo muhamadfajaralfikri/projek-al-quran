@@ -27,7 +27,7 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(height: 20),
             // Name
             const Text(
-              'Muhamad Fajar Al FIkri', // Replace with user's name
+              'Muhamad Fajar Al Fikri', // Replace with user's name
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,

@@ -31,7 +31,7 @@ class Dzuhur extends StatelessWidget {
             Expanded(
               child: FutureBuilder<String>(
                 future: DefaultAssetBundle.of(context)
-                    .loadString('assets/dzuhur.json'),
+                    .loadString('assets/shalat/dzuhur.json'),
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return const Center(child: CircularProgressIndicator());
