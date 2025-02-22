@@ -31,7 +31,7 @@ class Ashar extends StatelessWidget {
             Expanded(
               child: FutureBuilder<String>(
                 future: DefaultAssetBundle.of(context)
-                    .loadString('assets/ashar.json'),
+                    .loadString('assets/shalat/ashar.json'),
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return const Center(child: CircularProgressIndicator());

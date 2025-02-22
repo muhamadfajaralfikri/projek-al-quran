@@ -31,7 +31,7 @@ class Subuh extends StatelessWidget {
             Expanded(
               child: FutureBuilder<String>(
                 future: DefaultAssetBundle.of(context)
-                    .loadString('assets/subuh.json'),
+                    .loadString('assets/shalat/subuh.json'),
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return const Center(child: CircularProgressIndicator());

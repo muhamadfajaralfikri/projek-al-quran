@@ -11,11 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.3.2
-  intl: ^0.19.0
+  intl: ^0.20.1
   lottie: ^3.1.2
   cupertino_icons: ^1.0.8
   font_awesome_flutter: ^10.7.0
-  dio: ^5.6.0
+  dio: ^5.7.0
   loading_animation_widget: ^1.2.1
 
 dev_dependencies:
@@ -36,8 +36,7 @@ flutter:
     - assets/images/logoo.png
     - assets/images/login.png
     - assets/images/forgot.png
-    - assets/images/man.png
-    - assets/images/profile.jpg
+    - assets/images/poto.png
     - assets/images/islamic.png
     - assets/images/praying.png
     - assets/images/quran.png
@@ -54,11 +53,11 @@ flutter:
     - assets/images/pray2.png
     - assets/images/pray3.png
     - assets/images/pray4.png
-    - assets/subuh.json
-    - assets/dzuhur.json
-    - assets/ashar.json
-    - assets/maghrib.json
-    - assets/isya.json
+    - assets/shalat/subuh.json
+    - assets/shalat/dzuhur.json
+    - assets/shalat/ashar.json
+    - assets/shalat/maghrib.json
+    - assets/shalat/isya.json
     - assets/nabi.json
     - assets/doa.json
 
